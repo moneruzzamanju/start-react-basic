@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './mycomponents/Hello';
 import Greeting from './mycomponents/Greeting';
+import PropsInFunctionalComponent from './mycomponents/PropsInFunctionalComponent';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </a>
         <Hello></Hello>
         <Greeting></Greeting>
+        <PropsInFunctionalComponent name="Moneruzzaman"></PropsInFunctionalComponent>
+        <PropsInFunctionalComponent name="Umair"></PropsInFunctionalComponent>
+        <PropsInFunctionalComponent name="Momin"></PropsInFunctionalComponent>
 
       </header>
     </div>
