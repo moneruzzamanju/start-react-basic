@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './mycomponents/Hello';
+import Greeting from './mycomponents/Greeting';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React with Moneruzzaman.
         </a>
         <Hello></Hello>
+        <Greeting></Greeting>
 
       </header>
     </div>
