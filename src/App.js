@@ -3,6 +3,7 @@ import './App.css';
 import Hello from './mycomponents/Hello';
 import Greeting from './mycomponents/Greeting';
 import PropsInFunctionalComponent from './mycomponents/PropsInFunctionalComponent';
+import PropsInClassComponent from './mycomponents/PropsInClassComponent';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
         <PropsInFunctionalComponent name="Moneruzzaman"></PropsInFunctionalComponent>
         <PropsInFunctionalComponent name="Umair"></PropsInFunctionalComponent>
         <PropsInFunctionalComponent name="Momin"></PropsInFunctionalComponent>
+
+        <PropsInClassComponent name="moneruzzaman"></PropsInClassComponent>
+        <PropsInClassComponent name="umair"></PropsInClassComponent>
+        <PropsInClassComponent name="momin"></PropsInClassComponent>
 
       </header>
     </div>
